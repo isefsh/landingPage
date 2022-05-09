@@ -1,0 +1,167 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.header{
+    width: 100%;
+    height: 15%;
+    top: 0;
+    left: 0;
+    background-color: #d3d3d3;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    float: right;
+    position: relative;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 2.5rem;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.main{
+    width: 100%;
+    height: 85%;
+    background-color: #dcdcdc;
+    position: relative;
+}
+
+.main-text{
+    width: 40%;
+    display: inline-block;
+    padding-top: 12rem;
+    padding-left: 5rem;
+}
+
+.main-image{
+    display: inline;
+    float: right;
+    width: 10%;
+}
+
+#softwares{
+    width: 100%;
+    height: 80%;
+    background-color: #eae9e9;
+    position: relative;
+}
+
+#main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    padding-top: 1.5rem;
+}
+
+.app{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 6.5rem;
+}
+
+.app-01 h2 p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+.square-01{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.square-02{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.square-03{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+#comparacao{
+    width: 100%;
+    height: 80%;
+    background-color: #dcdcdc;
+    position: relative;
+}
+
+.example-text{
+    width: 40%;
+    padding-top: 6rem;
+    float: right;
+    margin-right: 5%;
+    word-break: break-all;
+}
+
+.example-image{
+    display: inline;
+    width: 10%;
+}
+
+#areas{
+    width: 100%;
+    height: 80%;
+    background-color: #eae9e9;
+    position: relative;
+}
+
+#areas h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    padding-top: 1.5rem;
+    margin-bottom: 1.5%;
+}
+
+.quadrado-01{
+    width: 25%;
+    height: 35%;
+    border-radius: 18px;
+    background-color: lightblue;
+    display: inline-block;
+    margin-left: 25%;
+}
+
+.quadrado-02{
+    width: 25%;
+    height: 35%;
+    border-radius: 18px;
+    background-color: #c24d4d;
+    display: inline-block;
+}
+
+.footer{
+    width: 100%;
+    height: 15%;
+    background-color: #d3d3d3;
+    bottom: 0;
+    left: 0;
+    position: relative;
+}
