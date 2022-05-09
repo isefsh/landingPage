@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
 *{
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: #293340;
 }
 
 .wrapper{
@@ -18,7 +24,7 @@
     height: 15%;
     top: 0;
     left: 0;
-    background-color: #d3d3d3;
+    background-color: transparent;
 }
 
 .menu{
@@ -29,6 +35,7 @@
 }
 
 .menu li{
+    font-family: 'Noto Sans JP', sans-serif;
     display: inline-block;
     padding: 2.5rem;
 }
@@ -41,27 +48,40 @@
 .main{
     width: 100%;
     height: 85%;
-    background-color: #dcdcdc;
+    background-color: transparent;
     position: relative;
 }
 
 .main-text{
     width: 40%;
     display: inline-block;
-    padding-top: 12rem;
+    padding-top: 10rem;
     padding-left: 5rem;
+}
+
+.main-text h1{
+    font-family: 'Noto Sans JP';
+    font-weight: 700;
+    color: #1585fd;
+}
+
+.main-text p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    padding-top: 0.5rem;
+    color: #fff;
 }
 
 .main-image{
     display: inline;
     float: right;
-    width: 10%;
+    width: 8.5%;
 }
 
 #softwares{
     width: 100%;
     height: 80%;
-    background-color: #eae9e9;
+    background-color: transparent;
     position: relative;
 }
 
@@ -73,13 +93,63 @@
     padding-top: 1.5rem;
 }
 
+#main-text h1{
+    font-family: 'Noto Sans JP';
+    font-weight: 700;
+    color: #1585fd;
+}
+
+#main-text p{
+    font-family: 'Noto Sans JP';
+    font-weight: 400;
+    color: #fff;
+}
+
 .app{
     display: flex;
     justify-content: space-evenly;
     padding-top: 6.5rem;
 }
 
-.app-01 h2 p{
+.app h2{
+    font-family: 'Noto Sans JP';
+    font-weight: 700;
+    color: #0F63BD;
+}
+
+.app p{
+    font-family: 'Noto Sans JP';
+    font-weight: 400;
+    color: #fff;
+}
+
+.app-01{
+    width: 15%;
+}
+
+.app-02{
+    width: 15%;
+}
+
+.app-03{
+    width: 15%;
+}
+
+.app-01 h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+.app-02 h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+.app-03 h2{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,27 +157,48 @@
 }
 
 .square-01{
-    width: 100px;
-    height: 100px;
-    background-color: lightblue;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../imgs/apps/blender.png);
+    background-repeat: no-repeat;
+    background-size: 138px 138px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    background-color: #dcdcdc;
 }
 
 .square-02{
-    width: 100px;
-    height: 100px;
-    background-color: lightblue;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../imgs/apps/autodesk-maya.png);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    background-color: #dcdcdc;
 }
 
 .square-03{
-    width: 100px;
-    height: 100px;
-    background-color: lightblue;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../imgs/apps/solidworks.png);
+    background-repeat: no-repeat;
+    background-size: 148px 148px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    background-color: #dcdcdc;
 }
 
 #comparacao{
     width: 100%;
     height: 80%;
-    background-color: #dcdcdc;
+    background-color: transparent;
     position: relative;
 }
 
@@ -119,6 +210,19 @@
     word-break: break-all;
 }
 
+.example-text h1{
+    font-family: 'Noto Sans JP';
+    font-weight: 700;
+    color: #1585fd;
+}
+
+.example-text p{
+    font-family: 'Noto Sans JP';
+    font-weight: 400;
+    padding-top: 0.5rem;
+    color: #fff;
+}
+
 .example-image{
     display: inline;
     width: 10%;
@@ -127,7 +231,7 @@
 #areas{
     width: 100%;
     height: 80%;
-    background-color: #eae9e9;
+    background-color: transparent;
     position: relative;
 }
 
@@ -138,6 +242,9 @@
     align-self: center;
     padding-top: 1.5rem;
     margin-bottom: 1.5%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+    color: #1585fd;
 }
 
 .quadrado-01{
