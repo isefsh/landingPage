@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #293340;
+    background-color: #fff;
 }
 
 .wrapper{
@@ -42,7 +42,7 @@ body{
 
 .menu li a{
     text-decoration: none;
-    color: #fff;
+    color: #262628;
 }
 
 .main{
@@ -69,19 +69,19 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
     padding-top: 0.5rem;
-    color: #fff;
+    color: #262628;
 }
 
 .main-image{
     display: inline;
     float: right;
-    width: 8.5%;
+    width: 9%;
 }
 
 #softwares{
     width: 100%;
     height: 80%;
-    background-color: transparent;
+    background: linear-gradient(#195ABE, #3FA3EE);
     position: relative;
 }
 
@@ -96,31 +96,31 @@ body{
 #main-text h1{
     font-family: 'Noto Sans JP';
     font-weight: 700;
-    color: #1585fd;
+    color: #fff;
 }
 
 #main-text p{
     font-family: 'Noto Sans JP';
     font-weight: 400;
-    color: #fff;
+    color: rgb(240, 240, 240);
 }
 
 .app{
     display: flex;
     justify-content: space-evenly;
-    padding-top: 6.5rem;
+    padding-top: 5.5rem;
 }
 
 .app h2{
     font-family: 'Noto Sans JP';
     font-weight: 700;
-    color: #0F63BD;
+    color: #fff;
 }
 
 .app p{
     font-family: 'Noto Sans JP';
     font-weight: 400;
-    color: #fff;
+    color: rgb(240, 240, 240);
 }
 
 .app-01{
@@ -166,7 +166,7 @@ body{
     align-items: center;
     align-self: center;
     justify-content: center;
-    background-color: #dcdcdc;
+    background-color: #fff;
 }
 
 .square-02{
@@ -179,7 +179,7 @@ body{
     align-items: center;
     align-self: center;
     justify-content: center;
-    background-color: #dcdcdc;
+    background-color: #fff;
 }
 
 .square-03{
@@ -192,7 +192,7 @@ body{
     align-items: center;
     align-self: center;
     justify-content: center;
-    background-color: #dcdcdc;
+    background-color: #fff;
 }
 
 #comparacao{
@@ -207,7 +207,7 @@ body{
     padding-top: 6rem;
     float: right;
     margin-right: 5%;
-    word-break: break-all;
+    /*word-break: break-all;*/
 }
 
 .example-text h1{
@@ -220,7 +220,7 @@ body{
     font-family: 'Noto Sans JP';
     font-weight: 400;
     padding-top: 0.5rem;
-    color: #fff;
+    color: #262628;
 }
 
 .example-image{
@@ -228,10 +228,16 @@ body{
     width: 10%;
 }
 
+.example-image img{
+    width: 650px;
+    padding-left: 2rem;
+    padding-top: 5rem;
+}
+
 #areas{
     width: 100%;
     height: 80%;
-    background-color: transparent;
+    background: linear-gradient(#195ABE, #3FA3EE);
     position: relative;
 }
 
@@ -244,14 +250,14 @@ body{
     margin-bottom: 1.5%;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 700;
-    color: #1585fd;
+    color: #fff;
 }
 
 .quadrado-01{
     width: 25%;
     height: 35%;
     border-radius: 18px;
-    background-color: lightblue;
+    background-color: #fff;
     display: inline-block;
     margin-left: 25%;
 }
@@ -260,8 +266,75 @@ body{
     width: 25%;
     height: 35%;
     border-radius: 18px;
-    background-color: #c24d4d;
+    background-color: #fff;
     display: inline-block;
+}
+
+.image-01{
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 15px;
+    background-image: url(../imgs/icon/cinema.png);
+    background-repeat: no-repeat;
+    background-size: 75px 75px;
+}
+
+.image-02{
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 15px;
+    background-image: url(../imgs/icon/jogo-arcade.png);
+    background-repeat: no-repeat;
+    background-size: 75px 75px;
+}
+
+.image-03{
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 15px;
+    background-image: url(../imgs/icon/projeto.png);
+    background-repeat: no-repeat;
+    background-size: 75px 75px;
+}
+
+.image-04{
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 15px;
+    background-image: url(../imgs/icon/saude.png);
+    background-repeat: no-repeat;
+    background-size: 75px 75px;
+}
+
+.area-02{
+    padding-top: 0.25rem;
+}
+
+.area-texto{
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+}
+
+.area-texto h2{
+    font-family: 'Noto Sans JP';
+    font-weight: 700;
+    color: #1585fd;
+}
+
+.area-texto p{
+    font-family: 'Noto Sans JP';
+    font-size: 14px;
+    font-weight: 400;
+    color: #808080;
 }
 
 .footer{
