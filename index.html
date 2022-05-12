@@ -1,115 +1,121 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <title>Animação 3D</title>
+    <link rel="icon" href="imgs/icon/programacao-3d.png" sizes="16x16" type="image/png">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link type="image/png" sizes="16x16" rel="icon" href="imgs/icon/programacao-3d.png">
 </head>
 <body>
-    <div class="wrapper">
-        <div class="header">
-        <ul class="menu">
-            <li><a href="#">Início</a></li>
-            <li><a href="index.html#softwares">Softwares 3D</a></li>
-            <li><a href="index.html#comparacao">Animação 2D X 3D</a></li>
-            <li><a href="index.html#areas">Aplicações</a></li>
-        </ul>
+    <div class="header">
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="index.html#software">Sofwares 3D</a></li>
+                <li><a href="index.html#comparacao">Animação 2D vs 3D</a></li>
+                <li><a href="index.html#">Aplicações</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="principal">
+        <div class="info">
+            <h1>O que é animação?</h1>
+            <p>A animação 3D cria imagens em movimento com o auxílio de computadores, com o objetivo de passar uma sensação de realidade, dessa forma, adicionam-se texturas, materiais e iluminação. A partir dessa técnica, é possível criar cenários ricos em detalhes que dão a impressão de serem reais.</p>
         </div>
-        <div class="main">
-            <div class="main-text">
-                <h1>O que é animação 3D?</h1>
-                <p>A animação 3D cria imagens em movimento com o auxílio de computadores, com o objetivo de passar uma sensação de realidade, dessa forma, adicionam-se texturas, materiais e iluminação. A partir dessa técnica, é possível criar cenários ricos em detalhes que dão a impressão de serem reais.</p>
-            </div>
-            <div class="main-image">
-                <img src="imgs/main-image.png">
-            </div>
+        <img src="imgs/main-image.png">
+    </div>
+    <div id="software">
+        <div class="info">
+            <h1>Melhores softwares para modelagem 3D</h1>
+            <p>Conheça os melhores softwares de modelagem 3D, itens essenciais para a realização de projetos no dia a dia!</p>
         </div>
-        <div id="softwares">
-            <div id="main-text">
-                <h1>Melhores softwares para modelagem 3D</h1>
-                <p>Conheça os melhores softwares de modelagem 3D, itens essenciais para a realização de projetos no dia a dia!</p>
+        <div class="app">
+            <div class="sftware">
+                <img src="imgs/apps/blender.png">
+                <h2>Blender</h2>
+                <p>O melhor software gratuito para modelagem 3D.</p>
             </div>
-            <div class="app">
-                <div class="app-01">
-                    <div class="square-01"></div>
-                    <h2>Blender</h2>
-                    <p>O melhor software gratuito para modelagem 3D.</p>
-                </div>
-                <div class="app-02">
-                    <div class="square-02"></div>
-                    <h2>Autodesk Maya</h2>
-                    <p>O melhor para profissionais da área.</p>
-                </div>
-                <div class="app-03">
-                    <div class="square-03"></div>
-                    <h2>SolidWorks</h2>
-                    <p>Um software com um amplo leque de funcionalidade e funções específicas.</p>
-                </div>
+            <div class="sftware">
+                <img src="imgs/apps/autodesk-maya.png">
+                <h2>Autodesk Maya</h2>
+                <p>O melhor para profissionais da área.</p>
+            </div>
+            <div class="sftware">
+                <img src="imgs/apps/solidworks.png">
+                <h2>SolidWorks</h2>
+                <p>Um software com um amplo leque de funcionalidade e funções específicas.</p>
             </div>
         </div>
-        <div id="comparacao">
-            <div class="example-image">
-                <img src="imgs/comparision.gif">
-            </div>
-            <div class="example-text">
-                <h1>Animação 2D X Animação 3D</h1>
-                <p>O 2D é produzido tendo como base duas dimensões: largura e comprimento. O 3D, por sua vez, além de largura e comprimento, adiciona uma terceira dimensão, a profundidade. É a partir dela, que o conteúdo traz a sensação de realidade. Essa é a principal característica que difere a animação 2D da animação 3D.</p><br>
-                <p>Enquanto o 2D apresenta um custo e tempo de produção menor, além de maiores opções de produção. A animação 3D, embora leve um pouco mais de tempo, tem maior precisão nos detalhes e, assim, retém a atenção do público.</p>
-            </div>
+    </div>
+    <div id="comparacao">
+        <img src="imgs/comparision.gif">
+        <div class="info">
+            <h1>Animação 2D vs Animação 3D</h1>
+            <p>O 2D é produzido tendo como base duas dimensões: largura e comprimento. O 3D, por sua vez, além de largura e comprimento, adiciona uma terceira dimensão, a profundidade. É a partir dela, que o conteúdo traz a sensação de realidade. Essa é a principal característica que difere a animação 2D da animação 3D.</p><br>
+            <p>Enquanto o 2D apresenta um custo e tempo de produção menor, além de maiores opções de produção. A animação 3D, embora leve um pouco mais de tempo, tem maior precisão nos detalhes e, assim, retém a atenção do público.</p>
         </div>
-        <div id="areas">
-            <h1>Areas que usam animação 3D</h1>
-            <div class="container">
-                <div class="area-01">
-                    <div class="quadrado-01">
-                        <div class="image-01"></div>
-                        <div class="area-texto">
-                            <h2>Filmes</h2>
-                            <p>Em filmes, a animação 3D é usada para dar profundidade ao objetos e assim uma sensação de ser real.</p>
-                        </div>
-                    </div>
-                    <div class="quadrado-02">
-                        <div class="image-02"></div>
-                        <div class="area-texto">
-                            <h2>Arquitetura</h2>
-                            <p>Permite que o esboço da obra seja ampla e detalhista, possibilitando que alterações sejam realizadas.</p>
-                        </div>
-                    </div>
+    </div>
+    <div id="area">
+        <div class="info">
+            <h1>Setores que usam a animação 3D</h1>
+        </div>
+        <div id="section">
+            <div class="setor">
+                <img src="imgs/icon/cinema.png">
+                <div class="about">
+                    <h2>Filmes</h2>
+                    <p>Em filmes, a animação 3D é usada para dar profundidade ao objetos e assim uma sensação de ser real.</p>
                 </div>
-                <div class="area-02">
-                    <div class="quadrado-01">
-                        <div class="image-03"></div>
-                        <div class="area-texto">
-                            <h2>Jogos</h2>
-                            <p>A animação 3D permite que os personagens e ambientes do jogo mais próximos da realidade.</p>
-                        </div>
-                    </div>
-                    <div class="quadrado-02">
-                        <div class="image-04"></div>
-                        <div class="area-texto">
-                            <h2>Saúde</h2>
-                            <p>Na área da saúde, a animação 3D possibilita o planejamento cirúrgico virtual.</p>
-                        </div>
-                    </div>
+            </div>
+            <div class="setor">
+                <img src="imgs/icon/loupe.png">
+                <div class="about">
+                    <h2>Investigação</h2>
+                    <p>Na área da investigação, a animação 3D pode ser usada para fazer simulações dos fatos ocorridos.</p>
+                </div>
+            </div>
+            <div class="setor">
+                <img src="imgs/icon/projeto.png">
+                <div class="about">
+                    <h2>Arquitetura</h2>
+                    <p>Permite que o esboço da obra seja ampla e detalhista, possibilitando que alterações sejam realizadas.</p>
                 </div>
             </div>
         </div>
-        <div class="footer">
-            <div class="column-1">
-                <h3>Links uteis</h3>
-                <a href="https://www.flaticon.com/br/icones-gratis/animacao" title="animação ícones">Animação ícones criados por Flat Icons - Flaticon</a>
-                <a href="https://www.flaticon.com/free-icons/cinema" title="cinema icons">Cinema icons created by Freepik - Flaticon</a>
-                <a href="https://www.flaticon.com/br/icones-gratis/jogo-de-arcade" title="jogo de arcade ícones">Jogo de arcade ícones criados por juicy_fish - Flaticon</a>
-                <a href="https://www.flaticon.com/br/icones-gratis/saude" title="saúde ícones">Saúde ícones criados por Freepik - Flaticon</a>
-                <a href="https://www.flaticon.com/br/icones-gratis/planta" title="planta ícones">Planta ícones criados por justicon - Flaticon</a>
+        <div id="section">
+            <div class="setor">
+                <img src="imgs/icon/jogo-arcade.png">
+                <div class="about">
+                    <h2>Jogos</h2>
+                    <p>A animação 3D permite que os personagens e ambientes do jogo mais próximos da realidade.</p>
+                </div>
             </div>
-            <div class="column-2">
-                <h3>Novidades sobre animação 3D</h3>
-                <form>
-                    <input type="text" placeholder="Digite seu e-mail aqui"><br>
-                    <button type="submit">Inscreva-se agora</button>
-                </form>
+            <div class="setor">
+                <img src="imgs/icon/saude.png">
+                <div class="about">
+                    <h2>Saúde</h2>
+                    <p>Na área da saúde, a animação 3D possibilita o planejamento cirúrgico virtual.</p>
+                </div>
             </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="col-1">
+            <h3>Links de atribuição</h3>
+            <a href="https://www.flaticon.com/br/icones-gratis/animacao" title="animação ícones">Ícone animação - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/cinema" title="cinema icons">Ícone cinema por Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/br/icones-gratis/jogo-de-arcade" title="jogo de arcade ícones">Íconde arcade por juicy_fish - Flaticon</a>
+            <a href="https://www.flaticon.com/br/icones-gratis/saude" title="saúde ícones">Ícone saúde por Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/br/icones-gratis/planta" title="planta ícones">Ícone planta por justicon - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/magnifying-glass" title="magnifying glass icons">Lupa por Freepik - Flaticon</a>
+        </div>
+        <div class="col-2">
+            <h3>Saiba mais sobre animação 3D!</h3>
+            <form>
+                <input type="text" placeholder="Digite seu e-mail aqui"><br>
+                <button type="submit">Inscreva-se agora</button><br>
+                <label>Site desenvolvido por Isabelle</label>
+            </form>
         </div>
     </div>
 </body>
