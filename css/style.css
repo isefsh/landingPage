@@ -94,6 +94,10 @@ p{
     padding-left: 2rem;
 }
 
+#comparacao img{
+    width: 40%;
+}
+
 #comparacao h1{
     color: #1585fd;
 }
